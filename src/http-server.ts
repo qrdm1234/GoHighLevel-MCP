@@ -63,6 +63,7 @@ class GHLMCPHttpServer {
   private workflowTools: WorkflowTools;
   private surveyTools: SurveyTools;
   private storeTools: StoreTools;
+  private productsTools: ProductsTools;
   private transports: Map<string, StreamableHTTPServerTransport> = new Map();
   private port: number;
   
